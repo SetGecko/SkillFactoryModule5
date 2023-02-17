@@ -19,9 +19,19 @@
             Console.WriteLine("Ваше имя: {0}", name);
             Console.WriteLine("Ваш возраст: {0}", age);*/
 
-            
 
-            ShowColor();
+            var favcolor = new string[3];
+            for (int i = 0; i < favcolor.Length;i++)
+            {
+                favcolor[i] = ShowColor();                
+            }
+
+            Console.WriteLine("Ваши любимые цвета:");
+            foreach(var color in favcolor)
+            {
+                Console.WriteLine(color);
+            }
+            //ShowColor();
         }
 
         static string ShowColor()
