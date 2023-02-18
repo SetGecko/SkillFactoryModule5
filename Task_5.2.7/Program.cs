@@ -31,10 +31,13 @@
                 Console.WriteLine(color);
             }
 
+            ShowColors(name, favcolor);
+
             Console.ReadKey();
+
         }
 
-        static string ShowColor(string username, int userage)
+        static string ShowColor(string username, int userage, params string[] favcolor)
         {
             Console.WriteLine("{0}, {1} лет \nНапишите свой любимый цвет на английском с маленькой буквы", username, userage);
             var color = Console.ReadLine();
@@ -69,6 +72,15 @@
             }
 
             return color;
+        }
+
+        static void ShowColors(string username = "Жужа", params string[] favcolors)
+        {
+            Console.WriteLine("Ваши любимые цвета:");
+            foreach (var color in favcolors)
+            {
+                Console.WriteLine(color);
+            }
         }
     }
 }
