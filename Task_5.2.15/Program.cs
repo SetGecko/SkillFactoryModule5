@@ -1,13 +1,14 @@
-﻿namespace Task_5._2._8
+﻿namespace Task_5._2._15
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            
+            var array = GetArrayFromConsole();
+            var sortedarray = SortArray(array);
         }
 
-        static int[] GetArrayFromConsole()
+        static int[] GetArrayFromConsole(int num = 5)
         {
             var result = new int[5];
 
