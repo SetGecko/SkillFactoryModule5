@@ -1,4 +1,4 @@
-﻿namespace Task_5._2._3
+﻿namespace Task_5._2._7
 {
     internal class Program
     {
@@ -22,7 +22,7 @@
 
             for (int i = 0; i < favcolor.Length; i++)
             {
-                favcolor[i] = ShowColor(name);
+                favcolor[i] = ShowColor(name, age);
             }
 
             Console.WriteLine("Ваши любимые цвета:");
@@ -34,9 +34,9 @@
             Console.ReadKey();
         }
 
-        static string ShowColor(string username)
+        static string ShowColor(string username, int userage)
         {
-            Console.WriteLine("{0}, Напишите свой любимый цвет на английском с маленькой буквы", username);
+            Console.WriteLine("{0}, {1} лет \nНапишите свой любимый цвет на английском с маленькой буквы", username, userage);
             var color = Console.ReadLine();
 
             switch (color)
