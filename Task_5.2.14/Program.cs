@@ -1,10 +1,10 @@
-﻿namespace Task_5._2._8
+﻿namespace Task_5._2._14
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            
+
         }
 
         static int[] GetArrayFromConsole(int num = 5)
