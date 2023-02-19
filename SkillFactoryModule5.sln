@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_5.4.3", "Task_5.4.3\Ta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_5.4.4", "Task_5.4.4\Task_5.4.4.csproj", "{C2A62FD8-BD50-4767-B36F-85AAF8241F6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenCast_5.4", "ScreenCast_5.4\ScreenCast_5.4.csproj", "{B2020A53-5C93-41AC-9EA6-48143A3340F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{C2A62FD8-BD50-4767-B36F-85AAF8241F6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2A62FD8-BD50-4767-B36F-85AAF8241F6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2A62FD8-BD50-4767-B36F-85AAF8241F6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2020A53-5C93-41AC-9EA6-48143A3340F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2020A53-5C93-41AC-9EA6-48143A3340F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2020A53-5C93-41AC-9EA6-48143A3340F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2020A53-5C93-41AC-9EA6-48143A3340F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
