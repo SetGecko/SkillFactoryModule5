@@ -10,6 +10,8 @@
             ChangeAge(myAge);
 
             Console.WriteLine("Мой возраст после использования метода = {0}", myAge);
+
+            //Финальное значение перемнной НЕ изменилось при передаче данных ПО ЗНАЧЕНИЮ
         }
 
         static void ChangeAge(int age)
