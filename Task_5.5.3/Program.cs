@@ -1,4 +1,4 @@
-﻿namespace Task_5._5._2
+﻿namespace Task_5._5._3
 {
     internal class Program
     {
@@ -27,7 +27,10 @@
                 modif = modif.Remove(0, 2);
             }
 
-            Console.BackgroundColor = (ConsoleColor)deep;
+            int color = deep;
+            while (color > 15)
+                color -= 15;
+            Console.BackgroundColor = (ConsoleColor)color;
 
             Console.WriteLine("..." + modif);
 
@@ -35,7 +38,7 @@
 
             if (deep > 1)
             {
-                Echo(modif, deep - 1);                
+                Echo(modif, deep - 1);
             }
         }
     }
