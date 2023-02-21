@@ -7,7 +7,7 @@
             Console.WriteLine(Factorial(20));
         }
 
-        static int Factorial(int x)
+        static decimal Factorial(int x)
         {
             if (x == 0)
             {
