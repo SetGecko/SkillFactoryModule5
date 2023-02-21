@@ -14,13 +14,18 @@
 
             for (int i = 0; i < deep; i++)
             {
-                Echo(str);
+                Echo(str, deep);
             }
         }
 
-        static void Echo(string saidword)
+        static void Echo(string phrase, int deep)
         {
-            Console.WriteLine(saidword);
+            Console.WriteLine(phrase);
+
+            if (deep > 1)
+            {
+                Echo(phrase, deep - 1);
+            }
         }
     }
 }
